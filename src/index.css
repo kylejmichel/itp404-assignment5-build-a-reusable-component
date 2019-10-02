@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.remainingMessage {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.password {
+  padding: 20px;
+  border-radius: 99999px;
+  border: none;
+  background: #eee;
+  width: 300px;
+
+}
+
+.hidden {
+  display: none;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
